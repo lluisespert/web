@@ -1,9 +1,6 @@
 import React from 'react';
-import './Proyectos.css';
-import './Proyectos.css';
-
+import "../estilos/estilos.css";
 function Proyectos() {
-  // Ejemplo de proyectos. Reemplaza con los links reales que pases.
   const proyectos = [
     {
       id: 1,
@@ -22,6 +19,18 @@ function Proyectos() {
       titulo: 'Proyecto Final del Bootcamp de Full Stack',
       descripcion: 'Proyecto final del Bootcamp de Full Stack 4Geeks Academy, hecho con React y Flask.',
       github: 'https://github.com/lluisespert/proyecto_final_lluis_espert'
+    },
+    {
+      id: 4,
+      titulo: 'Gestor de Tareas',
+      descripcion: 'Proyecto de un programa de gestión de tareas, para optimizar el tiempo de trabajo, hecho con React y PhP.',
+      github: 'https://github.com/lluisespert/gestordetareas'
+    },
+    {
+      id: 5,
+      titulo: 'Web Personal',
+      descripcion: 'Web Personal. Hecha con React.',
+      github: 'https://github.com/lluisespert/web'
     }
   ];
 
