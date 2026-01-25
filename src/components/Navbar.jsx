@@ -19,9 +19,6 @@ function Navbar() {
           <li className="navbar-item">
             <Link to="/experiencia" className="navbar-link">Experiencia Profesional</Link>
           </li>
-          <li className="navbar-item">
-            <Link to="/contacto" className="navbar-link">Contacto</Link>
-          </li>
         </ul>
       </div>
     </nav>

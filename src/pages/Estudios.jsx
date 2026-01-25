@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Estudios() {
   const estudios = [
     {
@@ -31,12 +33,12 @@ function Estudios() {
       descripcion: 'Certificación de Base de Datos por la Oracle Foundation.'
     },
     {
-      id: 6,
+      id: 7,
       titulo: 'Java 7',
       descripcion: 'Certificaciónde programación de Java por la Oracle Foundation.'
     },
     {
-      id: 7,
+      id: 8,
       titulo: 'Redes',
       descripcion: 'Curso de Instalación y Mantenimiento de Redes de 600h por el Servef (Labora).',
     }
