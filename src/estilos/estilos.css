@@ -278,3 +278,94 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+  /* 3D Contact form styles */
+  .contact-3d-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+  .contact-3d-container {
+    perspective: 1200px;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .contact-card {
+    transform-style: preserve-3d;
+    transition: transform 300ms cubic-bezier(.2,.9,.3,1), box-shadow 300ms;
+    background: linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 18px 50px rgba(2,6,23,0.6), inset 0 1px 0 rgba(255,255,255,0.03);
+    will-change: transform;
+  }
+  .card-face h2 {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    font-size: 2rem;
+  }
+  .card-face .muted {
+    margin: 0 0 1.25rem 0;
+    color: rgba(255,255,255,0.7);
+  }
+  .contact-form {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .contact-form label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 0.95rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    margin-top: 0.4rem;
+    padding: 0.65rem 0.8rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.06);
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)) !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000;
+    font: inherit;
+    outline: none;
+    transition: box-shadow 180ms, transform 180ms;
+    caret-color: #764ba2;
+  }
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    box-shadow: 0 6px 20px rgba(100,110,255,0.12);
+    transform: translateY(-2px);
+    border-color: rgba(100,110,255,0.45);
+  }
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+  }
+  .form-actions button {
+    background: linear-gradient(90deg,#667eea,#764ba2);
+    color: white;
+    border: none;
+    padding: 0.65rem 1.1rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(118,75,162,0.2);
+  }
+  .form-status {
+    margin-top: 0.6rem;
+    font-weight: 600;
+  }
+  .form-status.sending { color: #ffd166; }
+  .form-status.success { color: #8ef6a9; }
+  .form-status.error { color: #ff8b8b; }
+
+  /* Small screens */
+  @media (max-width: 520px) {
+    .contact-card { padding: 1.25rem; border-radius: 12px; }
+    .card-face h2 { font-size: 1.5rem }
+  }

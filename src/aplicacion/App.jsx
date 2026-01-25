@@ -6,6 +6,8 @@ import Navbar from "../components/Navbar.jsx";
 import Home from '../pages/Home.jsx';
 import Proyectos from '../pages/Proyectos.jsx';
 import Estudios from '../pages/Estudios.jsx';
+import Experiencia from '../pages/Experiencia.jsx';
+import Contacto from '../pages/Contacto.jsx';
 
 function App() {
   
@@ -18,6 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/estudios" element={<Estudios />} />
+          <Route path="/experiencia" element={<Experiencia />} />
+          <Route path="/contacto" element={<Contacto />} />
         </Routes>
       </ScrollToTop>
     </Router>
