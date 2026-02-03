@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  min-height: 100vh;
 }
 
 .logo {
@@ -40,6 +43,66 @@
 .read-the-docs {
   color: #888;
 }
+
+.home-screen {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #93C572;
+  display: flex;
+  align-items: flex-start;
+}
+
+.home-portrait {
+  width: 160px;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25),
+    inset 0 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.home-description {
+  color: #000;
+  margin-top: 1.15rem;
+  font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+.social-link {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,10 +129,10 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  display: block;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #f7c873;
 }
 
 h1 {
