@@ -8,7 +8,7 @@ function Experiencia() {
       id: 1,
       titulo: 'Técnico de Implantación de Sistemas',
       empresa: 'SanusTech',
-      fecha: 'Diciembre 2025 - Actualidad'
+      fecha: 'Diciembre 2025 - Marzo 2026'
     },
     {
       id: 2,

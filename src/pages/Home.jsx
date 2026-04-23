@@ -6,7 +6,7 @@ import lluisImg from "../img/lluis.jpeg";
 export default function Home() {
   return (
     <div className="home-screen">
-      <div className="container text-center py-5">
+      <div className="container text-center">
         <div className="d-flex justify-content-center">
           <img
             src={lluisImg}

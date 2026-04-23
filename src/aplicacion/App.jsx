@@ -13,7 +13,7 @@ function App() {
   
 
   return (
-    <Router>
+    <Router basename="/web2/">
       <Navbar />
       <ScrollToTop>
         <Routes>

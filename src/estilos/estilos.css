@@ -49,7 +49,9 @@
   width: 100%;
   background-color: #93C572;
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-portrait {
