@@ -19,7 +19,7 @@ export default function Home() {
         <br></br>
         <br></br>
         <p className="mt-3 home-description">
-          Administrador de Sistemas, Desarrollador Web y Full Stack, con habilidades en Redes, Sistemas, servidores, JavaScript, Python y Java. Sólida experiencia en la administración de sistemas y en el análisis de datos utilizando SQL y Oracle. Apasionado por la resolución de problemas y la eficiencia tecnológica. Comprometido con el aprendizaje continuo y orientado a resultados.
+          Administrador de Sistemas, Desarrollador Web y Full Stack, con habilidades en Redes, Sistemas, Servidores, JavaScript, Python y Java. Sólida experiencia en la administración de sistemas y en el análisis de datos utilizando SQL y Oracle. Apasionado por la resolución de problemas y la eficiencia tecnológica. Comprometido con el aprendizaje continuo y orientado a resultados.
         </p>
         <br></br>
         <br></br>
